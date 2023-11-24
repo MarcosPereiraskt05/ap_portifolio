@@ -1,12 +1,19 @@
 *{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+
+h1{
+    font-size: 4vh;
 }
 
 
 .foto{
    position: relative;
    top: 20px;
-   left: 575px;
    width: auto;
    height: 300px;
    border: 2px solid white;
@@ -21,7 +28,7 @@ text{
 
 .titulo{
     position: absolute;
-    top: 320px;
+    top: 350px;
     left: 375px;
     right: 375px;
 }
@@ -29,7 +36,7 @@ text{
 
 .academy{
     position: absolute;
-    top: 420px;
+    top: 500px;
     left: 375px;
     right: 375px;
 }
@@ -37,25 +44,52 @@ text{
 
 .pessoal{
     position: absolute;
-    top: 545px;
+    top: 700px;
     left: 375px;
     right: 375px;
 }
 
 
 
-.form{
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-
-}
-
 body {
     margin: 0;
     padding: 0;
-    background: rgb(15,47,15);
-    background: linear-gradient(90deg, rgba(15,47,15,1) 5%, rgba(8,66,21,1) 100%);
-    height: 100%;
-    width: 100%;
+    background: rgb(17,14,62);
+    background: linear-gradient(90deg, rgba(17,14,62,1) 18%, rgba(73,73,133,1) 50%, rgba(1,12,22,1) 100%);
     background-size: 100%;
   }
+
+
+.instagram{
+    position: relative;
+    width: auto;
+    height: 50px;
+    top: 600px;
+}
+.whats{
+    position: relative;
+    width: auto;
+    height: 50px;
+    top: 600px;
+    margin-left: 350px;
+    margin-bottom: auto;
+}
+
+.redes{
+    position: relative;
+    width: auto;
+    height: 50px;
+    top: 600px;
+}
+
+.aroba{
+    position: relative;
+    top: 540px;
+    margin-right: 180px;
+}
+
+.num{
+    position: relative;
+    top: 500px;
+    margin-left: 650px;
+}
